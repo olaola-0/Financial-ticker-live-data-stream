@@ -2,6 +2,24 @@
 
 This repository hosts two Jupyter notebooks, `static_data.ipynb` and `streaming_data.ipynb`, designed for comprehensive financial market analysis using both static and live streaming data. These notebooks employ advanced techniques, such as Bollinger Bands and Volume Weighted Average Price (VWAP), to offer deep insights into stock trends, market behaviors, and trading strategies, complete with actionable buy, sell, hold, and alert signals.
 
+## Visualization Examples
+
+Below are some examples of the visualizations and trade signal outputs produced by the notebooks:
+
+### Bollinger Bands with Trading Signals
+![20 minutes Bollinger bands with last 1 minute average](images/Screenshot%202024-03-07%20at%2016.59.01.png)
+
+This visualization from `static_data.ipynb` shows the Bollinger Bands calculated over a 20-minute window with the last 1-minute average price. The colored dots represent different trade signals: red for sell, green for buy, and grey for hold.
+
+### VWAP with Trade Actions
+![VWAP and trade actions](images/Screenshot%202024-03-07%20at%2016.59.42.png)
+
+A snippet from the output table in `static_data.ipynb` presenting the calculated VWAP values along with corresponding trade actions based on the analysis.
+
+### Real-Time Streaming Data Analysis
+![10 minutes Bollinger bands with the last 1 minute average in streaming mode](images/Screenshot%202024-03-07%20at%2017.00.17.png)
+
+
 ## Notebooks Overview
 
 ### Static Data Analysis (`static_data.ipynb`)
